@@ -21,7 +21,7 @@ defmodule RaxxLogger.MixProject do
 
   defp deps do
     [
-      {:raxx, "~> 0.17.5 or ~> 0.18.0 or ~> 1.0"},
+      {:raxx, github: "iurimadeira/raxx"},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
